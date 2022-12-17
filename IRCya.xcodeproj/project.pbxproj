@@ -16,6 +16,7 @@
 		8C0689DC294BE1480028B1B3 /* IRCyaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0689DB294BE1480028B1B3 /* IRCyaTests.swift */; };
 		8C0689E6294BE1480028B1B3 /* IRCyaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0689E5294BE1480028B1B3 /* IRCyaUITests.swift */; };
 		8C0689E8294BE1480028B1B3 /* IRCyaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0689E7294BE1480028B1B3 /* IRCyaUITestsLaunchTests.swift */; };
+		8C0689F9294E0CCC0028B1B3 /* MessageInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0689F8294E0CCC0028B1B3 /* MessageInputView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		8C0689E1294BE1480028B1B3 /* IRCyaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IRCyaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C0689E5294BE1480028B1B3 /* IRCyaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRCyaUITests.swift; sourceTree = "<group>"; };
 		8C0689E7294BE1480028B1B3 /* IRCyaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRCyaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8C0689F8294E0CCC0028B1B3 /* MessageInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageInputView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 		8C0689C4294BE1470028B1B3 /* IRCya */ = {
 			isa = PBXGroup;
 			children = (
+				8C0689F4294BE2A30028B1B3 /* Views */,
 				8C0689C5294BE1470028B1B3 /* IRCyaApp.swift */,
 				8C0689C7294BE1470028B1B3 /* ContentView.swift */,
 				8C0689C9294BE1480028B1B3 /* Assets.xcassets */,
@@ -131,6 +134,22 @@
 				8C0689E7294BE1480028B1B3 /* IRCyaUITestsLaunchTests.swift */,
 			);
 			path = IRCyaUITests;
+			sourceTree = "<group>";
+		};
+		8C0689F4294BE2A30028B1B3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C0689F5294BE2BF0028B1B3 /* Chat Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8C0689F5294BE2BF0028B1B3 /* Chat Views */ = {
+			isa = PBXGroup;
+			children = (
+				8C0689F8294E0CCC0028B1B3 /* MessageInputView.swift */,
+			);
+			path = "Chat Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C0689CF294BE1480028B1B3 /* Persistence.swift in Sources */,
+				8C0689F9294E0CCC0028B1B3 /* MessageInputView.swift in Sources */,
 				8C0689C8294BE1470028B1B3 /* ContentView.swift in Sources */,
 				8C0689D2294BE1480028B1B3 /* IRCya.xcdatamodeld in Sources */,
 				8C0689C6294BE1470028B1B3 /* IRCyaApp.swift in Sources */,
